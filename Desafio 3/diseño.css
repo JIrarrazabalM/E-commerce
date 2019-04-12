@@ -1,0 +1,37 @@
+/*Inicio Titulos*/
+h1{
+  color: green;
+  font-style: italic;
+}
+p{
+  font-weight: bold;
+}
+body{
+  	background-color: #F0F8FF;
+}
+/*Fin Titulos*/
+
+/*Inicio Lista del menu principal*/
+a{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+/*Fin Lista del menu principal*/
+
+/*Inicio Ofertas*/
+dl,ul{
+  background-color:#9FEFC3;
+}
+dt{
+font-weight: bold;
+text-align: center;
+font-style: italic;
+}
+dd,ul{
+font-style: italic;
+text-align: center;
+list-style: none;
+}
+
+/*Fin Ofertas*/

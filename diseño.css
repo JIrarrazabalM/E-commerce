@@ -1,0 +1,180 @@
+/*Inicio Titulos*/
+.logo{
+  margin-left: 30px;
+  padding-right: 40px;
+}
+.titulo{
+  color: green;
+  font-style: italic;
+  display: inline;
+  font-size: 26px;
+}
+.eslogan{
+  font-weight: bold;
+  display: inline;
+  color: black;
+}
+input{
+  float: right;
+}
+.titulo_eslogan{
+  display: inline-block;
+}
+.caja_titulo{
+  background-image: url("fondo titulo logo.jpg");
+}
+body{
+  background-color: #F9EBEA;
+}
+
+            /* Inicio animacion titulo*/
+    @keyframes animacion_logo {
+    50%{
+    transform: rotate(15deg);
+    }
+    }
+.logo{
+animation-name: animacion_logo;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-duration: 3s;
+animation-delay: 0s;
+animation-direction: normal;
+}
+            /* Fin animacion titulo*/
+/*Fin Titulos*/
+
+/*Inicio Lista del menu principal*/
+.menu_principal{
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url("banner.jpg");
+  text-align: center;
+  list-style: none;
+}
+
+.lista_menu_tortas {
+  display: inline-block;
+  list-style: none;
+}
+
+.lista_menu_postres {
+  display: inline-block;
+  list-style: none;
+}
+
+.lista_menu_pasteles{
+  display: inline-block;
+  list-style: none;
+}
+
+.lista_menu_banqueteria {
+    display: inline-block;
+  list-style: none;
+}
+
+.lista_submenu_pasteles{
+  display: none;
+  list-style: none;
+}
+
+.lista_submenu_tortas{
+  display: none;
+  list-style: none;
+}
+
+.lista_submenu_postres{
+  display: none;
+  list-style: none;
+}
+
+.lista_submenu_banqueteria{
+  display: none;
+  list-style: none;
+}
+.lista_menu_pasteles:hover .lista_submenu_pasteles{
+  display: list-item;
+}
+
+.lista_menu_tortas:hover .lista_submenu_tortas{
+  display: list-item;
+}
+
+.lista_menu_postres:hover .lista_submenu_postres{
+  display: list-item;
+}
+.lista_menu_banqueteria:hover .lista_submenu_banqueteria{
+  display: list-item;
+}
+/*Fin Lista del menu principal*/
+
+
+/*Inicio contenido*/
+h3{
+  padding-right: 400px;
+  margin-right: 400px;
+  width: 400px;
+  display: inline-block;
+}
+.ordenador{
+  float: right;
+}
+.lista_contenido, dl{
+  background-color:#E6B0AA  ;
+}
+dt{
+font-weight: bold;
+text-align: center;
+font-style: italic;
+}
+dd,.lista_contenido{
+font-style: italic;
+list-style: none;
+}
+dd{
+  padding-right: 20px;
+}
+div{
+  display: inline-block;
+  width: 30%;
+  margin: 15px;
+}
+.imagen_oferta{
+padding-left: 35%;
+width: 150px;
+height: 150px;
+}
+.lista_contenido{
+  text-align: center;
+}
+/*Fin contenido*/
+
+/*Inicio contacto*/
+section{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: left;
+}
+.seccion_contacto{
+  background-color: #99A3A4;
+}
+
+/*Fin contacto*/
+
+/*inicio formilario contacto*/
+.enviar{
+  display: inline;
+}
+
+.formulario{
+display: inline-block;
+padding-left: 50px;
+
+
+}
+
+.comentarios_formulario, h2{
+  padding-left: 50px;
+
+}
+/*Fin formilario contacto*/
